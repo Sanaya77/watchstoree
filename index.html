@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auravie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Auravie watch Gallery</h1>
+    </header>
+
+    <section class="gallery">
+        <div class="watch">
+            <img src="https://www.megalithwatch.com/cdn/shop/products/04.jpg" alt="Luxury Watch">
+            <p>Megalith Mens watch</p>
+            <p>$1100</p>
+        </div>
+        <div class="watch">
+            <img src="https://i.etsystatic.com/27840545/r/il/07fbcf/3076477431/il_570xN.3076477431_b8xe.jpg" alt="Sport Watch">
+            <p>Chronograph  mens Wristwatch</p>
+            <p>$899.9</p>
+        </div>
+        <div class="watch">
+            <img src="https://i5.walmartimages.com/asr/16bfdf42-ca56-4f31-aaa8-729126f014e4.1091f570dea3fd9836d9798a7029fb50.jpeg" alt="Sport Watch">
+            <p>Fngeen Brand Gold Watch</p>
+            <p>$980.89</p>
+        </div>
+    </section>
+
+    <section class="order-form">
+        <h2>Order Your Watch</h2>
+        <form id="orderForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" pattern="[0-9]{10}" required>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
